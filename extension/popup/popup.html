@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChatTime settings</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <img src="../icons/icon-48.png" width="42" height="42" alt="">
+        <div>
+          <p class="eyebrow">CHATGPT MESSAGE TIME</p>
+          <h1>ChatTime</h1>
+        </div>
+        <label class="switch" title="Enable timestamps">
+          <input id="enabled" type="checkbox">
+          <span aria-hidden="true"></span>
+          <span class="sr-only">Enable timestamps</span>
+        </label>
+      </header>
+
+      <section class="preview" aria-label="Timestamp preview">
+        <span>Preview</span>
+        <time id="previewTime"></time>
+      </section>
+
+      <section class="settings" aria-label="Timestamp settings">
+        <label class="field">
+          <span>Clock</span>
+          <select id="clock">
+            <option value="24">24-hour</option>
+            <option value="12">12-hour</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Time zone</span>
+          <select id="timezone">
+            <option value="local">Local time</option>
+            <option value="utc">UTC</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Show on</span>
+          <select id="display">
+            <option value="all">Every message</option>
+            <option value="user">My messages</option>
+            <option value="assistant">ChatGPT replies</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Position</span>
+          <select id="placement">
+            <option value="above">Above message</option>
+            <option value="below">Below message</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Appearance</span>
+          <select id="appearance">
+            <option value="quiet">Quiet text</option>
+            <option value="chip">Soft chip</option>
+          </select>
+        </label>
+
+        <div class="check-row">
+          <label><input id="showDate" type="checkbox"> Show date</label>
+          <label><input id="showSeconds" type="checkbox"> Show seconds</label>
+        </div>
+      </section>
+
+      <footer>
+        <button id="reset" type="button">Reset defaults</button>
+        <span id="saveState" role="status" aria-live="polite">Saved in browser</span>
+      </footer>
+    </main>
+
+    <script src="../content/time-utils.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

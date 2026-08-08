@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1280" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#160F23"/><stop offset=".58" stop-color="#0C0B10"/><stop offset="1" stop-color="#21103D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#6D28D9"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#back)"/>
+  <circle cx="1110" cy="80" r="180" fill="#7C3AED" opacity=".16" filter="url(#glow)"/>
+  <circle cx="95" cy="730" r="170" fill="#8B5CF6" opacity=".11" filter="url(#glow)"/>
+
+  <g transform="translate(70 74)">
+    <rect width="1140" height="652" rx="26" fill="#111016" stroke="#342A43" filter="url(#shadow)"/>
+    <rect width="230" height="652" rx="26" fill="#17141D"/>
+    <path d="M230 0v652" stroke="#2A2530"/>
+    <circle cx="38" cy="38" r="13" fill="url(#accent)"/>
+    <text x="61" y="44" fill="#F8F5FF" font-family="Arial, sans-serif" font-weight="700" font-size="17">ChatTime</text>
+    <rect x="20" y="82" width="190" height="39" rx="10" fill="#24202B"/>
+    <text x="38" y="107" fill="#D6CFDE" font-family="Arial, sans-serif" font-size="13">＋  New chat</text>
+    <text x="26" y="159" fill="#776E82" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.4">RECENT CHATS</text>
+    <rect x="20" y="177" width="190" height="50" rx="9" fill="#2B2239" stroke="#4A3766"/>
+    <text x="34" y="197" fill="#F1E9FF" font-family="Arial, sans-serif" font-size="12">Extension launch plan</text>
+    <text x="34" y="215" fill="#9E8CB9" font-family="Arial, sans-serif" font-size="10">Today · 22:14</text>
+    <text x="34" y="256" fill="#AAA2B3" font-family="Arial, sans-serif" font-size="12">Quarterly notes</text>
+    <text x="34" y="281" fill="#AAA2B3" font-family="Arial, sans-serif" font-size="12">Website fixes</text>
+
+    <g transform="translate(230)">
+      <text x="52" y="48" fill="#F7F4FA" font-family="Arial, sans-serif" font-size="18" font-weight="700">Extension launch plan</text>
+      <rect x="51" y="68" width="808" height="1" fill="#25212A"/>
+
+      <text x="695" y="123" fill="#B29FC9" font-family="monospace" font-size="12" text-anchor="end">9 Aug 2026, 22:14</text>
+      <rect x="485" y="137" width="374" height="70" rx="20" fill="#2A2431"/>
+      <text x="512" y="166" fill="#F2EDF7" font-family="Arial, sans-serif" font-size="15">Can we add timestamps to every message?</text>
+      <text x="512" y="188" fill="#CAC2D2" font-family="Arial, sans-serif" font-size="13">It should feel native, simple and private.</text>
+
+      <g transform="translate(57 255)">
+        <circle cx="18" cy="15" r="17" fill="url(#accent)"/>
+        <path d="M18 6v10l7 4" stroke="#FFF" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <text x="50" y="4" fill="#A996C2" font-family="monospace" font-size="12">9 Aug 2026, 22:14</text>
+        <text x="50" y="38" fill="#F4F0F7" font-family="Arial, sans-serif" font-size="15">Done. ChatTime shows the original creation time beside each</text>
+        <text x="50" y="63" fill="#F4F0F7" font-family="Arial, sans-serif" font-size="15">prompt and reply, including messages loaded from older chats.</text>
+        <rect x="50" y="86" width="710" height="82" rx="13" fill="#19161E" stroke="#332B3D"/>
+        <circle cx="72" cy="108" r="5" fill="#A78BFA"/>
+        <text x="90" y="113" fill="#D8D0E0" font-family="Arial, sans-serif" font-size="13">Local or UTC · 12/24-hour · optional seconds</text>
+        <circle cx="72" cy="139" r="5" fill="#A78BFA"/>
+        <text x="90" y="144" fill="#D8D0E0" font-family="Arial, sans-serif" font-size="13">No analytics, no server, no conversation collection</text>
+      </g>
+
+      <text x="695" y="487" fill="#B29FC9" font-family="monospace" font-size="12" text-anchor="end">9 Aug 2026, 22:16</text>
+      <rect x="554" y="501" width="305" height="48" rx="20" fill="#2A2431"/>
+      <text x="580" y="531" fill="#F2EDF7" font-family="Arial, sans-serif" font-size="15">That is exactly what was missing.</text>
+
+      <rect x="55" y="579" width="804" height="48" rx="18" fill="#18151D" stroke="#342D3B"/>
+      <text x="82" y="608" fill="#756E7D" font-family="Arial, sans-serif" font-size="14">Message ChatGPT</text>
+      <circle cx="828" cy="603" r="15" fill="#2B2631"/>
+    </g>
+  </g>
+
+  <g transform="translate(92 21)">
+    <rect width="278" height="35" rx="17.5" fill="#241833" stroke="#5D3C89"/>
+    <circle cx="20" cy="17.5" r="6" fill="#9B72FF"/>
+    <text x="36" y="22" fill="#E8DCFF" font-family="Arial, sans-serif" font-size="12" font-weight="700">ORIGINAL TIMES. ZERO TRACKING.</text>
+  </g>
+</svg>

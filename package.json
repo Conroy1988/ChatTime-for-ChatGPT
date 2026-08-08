@@ -1,0 +1,21 @@
+{
+  "name": "chattime-for-chatgpt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, lightweight Chromium extension that adds original message timestamps to ChatGPT.",
+  "scripts": {
+    "assets": "node scripts/render-assets.mjs",
+    "test": "node --test",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "npm run test && npm run validate && npm run build"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "sharp": "^0.34.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
