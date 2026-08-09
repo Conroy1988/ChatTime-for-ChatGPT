@@ -14,7 +14,7 @@ The extension uses Chromium's `storage` permission only for display preferences 
 
 ## Network communication
 
-The extension makes no external network requests and has no analytics, advertising, telemetry, remote code, or developer-operated server.
+The extension makes no automatic external network requests and has no analytics, advertising, telemetry, remote code, or developer-operated server. Its settings panel includes an optional Ko-fi support link. Ko-fi is contacted only if the user deliberately opens that link in a new browser tab; ChatTime does not send conversation content or extension settings with it.
 
 ## Changes
 

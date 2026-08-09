@@ -131,6 +131,80 @@ select {
 .check-row label { display: flex; align-items: center; gap: 6px; }
 .check-row input { accent-color: #8b5cf6; }
 
+.support-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+  padding: 10px 11px;
+  border: 1px solid rgba(255, 94, 91, 0.3);
+  border-radius: 12px;
+  color: #fff6f6;
+  background: linear-gradient(115deg, rgba(255, 94, 91, 0.15), rgba(139, 92, 246, 0.08));
+  text-decoration: none;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.support-card:hover {
+  border-color: rgba(255, 120, 117, 0.62);
+  background: linear-gradient(115deg, rgba(255, 94, 91, 0.22), rgba(139, 92, 246, 0.12));
+  transform: translateY(-1px);
+}
+
+.support-card:focus-visible {
+  outline: 2px solid #ff9b98;
+  outline-offset: 2px;
+}
+
+.support-icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  color: white;
+  background: #ff5e5b;
+  box-shadow: 0 6px 16px rgba(255, 94, 91, 0.24);
+}
+
+.support-icon svg {
+  overflow: visible;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.support-icon .support-heart {
+  fill: currentColor;
+  stroke: none;
+}
+
+.support-copy {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.support-copy strong {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.support-copy small {
+  color: #bdafc5;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.support-arrow {
+  color: #ffaaa7;
+  font-size: 16px;
+  line-height: 1;
+}
+
 footer {
   display: flex;
   align-items: center;

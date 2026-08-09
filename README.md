@@ -2,6 +2,8 @@
 
 ChatTime adds the original date and time to messages on `chatgpt.com`. It is a small, private Manifest V3 extension for Brave, Chrome, Edge, and other Chromium browsers.
 
+[![Support ChatTime on Ko-fi](https://storage.ko-fi.com/cdn/kofi6.png?v=6)](https://ko-fi.com/D4P124RWI9)
+
 ![ChatTime store preview](store-assets/screenshot-1.png)
 
 ## What it does
@@ -35,7 +37,7 @@ npm install
 npm run check
 ```
 
-The verified Chrome Web Store package is created at `dist/ChatTime-for-ChatGPT-v1.0.0.zip` with `manifest.json` at the ZIP root.
+The verified Chrome Web Store package is created at `dist/ChatTime-for-ChatGPT-v1.1.0.zip` with `manifest.json` at the ZIP root.
 
 ## Compatibility
 
@@ -45,7 +47,7 @@ The verified Chrome Web Store package is created at `dist/ChatTime-for-ChatGPT-v
 | Google Chrome | Yes |
 | Microsoft Edge | Yes |
 | Other Chromium browsers | Expected |
-| Firefox | Not included in v1.0.0 |
+| Firefox | Not included in v1.1.0 |
 
 ChatTime is an independent, unofficial extension and is not affiliated with or endorsed by OpenAI. ChatGPT is a trademark of OpenAI.
 

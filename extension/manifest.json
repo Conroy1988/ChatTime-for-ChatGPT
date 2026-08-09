@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ChatTime for ChatGPT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds accurate, customisable message timestamps to ChatGPT.",
   "minimum_chrome_version": "111",
   "permissions": ["storage"],
