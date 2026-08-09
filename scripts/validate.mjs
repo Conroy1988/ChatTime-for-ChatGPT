@@ -29,6 +29,12 @@ for (const script of manifest.content_scripts || []) {
 for (const file of Object.values(manifest.icons || {})) check(exists(file), `missing icon: ${file}`);
 check(exists(manifest.action?.default_popup), "missing popup HTML");
 
+const popupHtml = fs.readFileSync(path.join(extension, manifest.action.default_popup), "utf8");
+check(popupHtml.includes('href="https://ko-fi.com/D4P124RWI9"'), "missing canonical Ko-fi support link");
+check(popupHtml.includes('target="_blank"'), "Ko-fi support link must open in a new tab");
+check(popupHtml.includes('rel="noopener noreferrer"'), "Ko-fi support link must isolate the new tab");
+check(!/<(?:img|script)[^>]+https?:\/\//i.test(popupHtml), "popup must not load remote images or scripts");
+
 const jsFiles = [];
 for (const directory of ["content", "popup"]) {
   for (const file of fs.readdirSync(path.join(extension, directory))) {

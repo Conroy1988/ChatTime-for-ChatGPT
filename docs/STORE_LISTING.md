@@ -33,10 +33,11 @@ Features:
 • Quiet text and soft-chip styles
 • Automatic support for streamed replies and ChatGPT page navigation
 • Right-to-left conversation safety
+• Optional Ko-fi support link in the settings panel
 
 Private by design:
 
-ChatTime has no analytics, advertisements, trackers, accounts, remote code, or developer server. It makes no external network requests and never collects or transmits conversation content. Its only extension permission is storage, used for display preferences.
+ChatTime has no analytics, advertisements, trackers, accounts, remote code, or developer server. It makes no automatic external network requests and never collects or transmits conversation content. Its only extension permission is storage, used for display preferences. The optional Ko-fi link opens only when deliberately selected.
 
 Works on chatgpt.com in Brave, Google Chrome, Microsoft Edge, and other current Chromium browsers.
 

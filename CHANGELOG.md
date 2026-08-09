@@ -2,6 +2,12 @@
 
 All notable changes to ChatTime are documented here.
 
+## 1.1.0 — 2026-08-09
+
+- Added an optional Ko-fi support card to the settings panel.
+- Kept the support experience local until deliberately opened by the user.
+- Added support-link security and remote-asset validation.
+
 ## 1.0.0 — 2026-08-09
 
 - Initial public release.
